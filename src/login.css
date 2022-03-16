@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.center{
+  text-align: center;
+}
+
+.opacity0{
+  opacity: 0;
+}
+.opacity1{
+  opacity: 1;
+}
+
+.geral{
+  padding-top: 143px;
+}
+
+.background-black{
+  background-color: #121212;
+  width: 100%;
+  height: 100%;
+}
+
+.email, .senha{
+  font-size: 36px;
+  font-weight: 300;
+  color: #D9D9D9;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.caixa-wrapper{
+  width: 44%;
+  margin: 0 auto;
+}
+
+.caixa{
+  width: 100%;
+  font-size: 15px;
+  line-height: 34px;
+  display: block;
+  background-color: #252525;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  color: #999999;
+  padding: 6px 0;
+  padding-left: 8px;
+
+}
+
+
+.botao{
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5px 104px 5px 103px;
+  background-color: #3700B3;
+  font-size: 36px;
+  font-weight: 600;
+  color: #D9D9D9;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  display: block;
+  margin: 36px auto 27px auto;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-wrapper{
+  padding-top: 20px;
+}
+
+.cadastro{
+  text-align: center;
+}
+
+.ask{
+  color: #775CB6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  display: inline;
+}
+
+.link1{
+  color: #775CB6;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline;
+  margin-top: 0px;
+}
+
+#email1{
+  margin-bottom: 22px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .caixa-wrapper{
+    width: 70%;
+  }
+
+  .email, .senha{
+    font-size: 20px;
+  }
+
+  .botao{
+    font-size: 20px;
+    padding: 5px 70px 5px 70px;
+  }
+  .ask{
+    font-size: 20px;
+    display: block;
+    
+  }
+  .link1{
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 280px) {
+ 
+  .botao{
+    padding: 5px 50px 5px 50px;
+  }
+  .ask{
+    display: block;
+    
+  }
+  .link1{
+    font-size: 18px;
+  }
+
+}

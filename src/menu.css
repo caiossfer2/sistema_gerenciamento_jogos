@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+  padding: 0; margin: 0; box-sizing: border-box; font-family: 'Poppins';
+}
+
+body {
+  background-color: #252525;
+} 
+
+.menuHorizontal{
+  display:none
+}
+
+.menuVertical{
+  width: 96px;
+  height: 100%;
+  left: 0px;
+  top: 0px; 
+  background: #333333;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center; 
+  position: fixed;
+}
+
+.menuVertical li{
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+}
+
+.menuVertical li:hover{
+  background-color: #404040;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.menuVertical span{
+  color: #D9D9D9;
+  font-size: 40px;
+  margin-top: 30px;
+  
+}
+
+.menuVertical .sair{
+  color: #EC7979; 
+  width: 96px;
+  padding: 25px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.menuVertical .sair:hover{
+  background-color: #404040;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+@media screen and (max-width: 750px){
+    .menuVertical{
+      display: none;
+    } 
+
+    .menuHorizontal{
+      position: fixed; 
+      z-index: 4;
+      display: block;
+      width: 100%;             
+      left: 0px;
+      bottom: 0px;
+      background: #333333; 
+    }
+
+    .menuHorizontal ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .menuHorizontal li{
+      display: inline-block;
+      cursor: pointer;
+      padding: 0;
+    }
+    
+    .menuHorizontal span{
+      color: #D9D9D9;
+      font-size: 40px;
+      padding: 15px 0;
+      margin: 0;
+    }
+
+    .menuHorizontal .sair{
+      color: #EC7979; 
+    }
+  
+}
+
+
+@media screen and (max-width: 400px){
+  .menuHorizontal span{
+    font-size: 32px;
+  }
+}
+
+
+
+ 
+
