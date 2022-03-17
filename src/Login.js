@@ -54,10 +54,18 @@ function Botao(props){
 }
 
 function TextoCadastro(){
+
+  const navigate = useNavigate();
+
+  function clicarLink(e){
+    e.preventDefault();
+    navigate('/cadastro');
+  }
+
   return(
     <div className="cadastro">
       <p className='ask'>Novo Usuário? </p>
-      <a className='link1' href='/cadastro'>Cadastre-se aqui</a>
+      <a className='link1' onClick={(e)=> clicarLink(e)} href='/cadastro'>Cadastre-se aqui</a>
     </div>
   )
 }

@@ -67,6 +67,7 @@
 .box-janela input, .tela-conta input{
   display: block;
   padding-left: 10px;
+  padding-right: 10px;
   background-color: #333333;
   border: none;
   box-shadow: 4px 4px 4px 0px#00000040;

@@ -15,12 +15,12 @@ function PrimeiraLinha(props){
 
   return(
     <fieldset className="grupo primeiro-grupo">
-      <div className="campo">
-          <label htmlFor="nome">Nome</label>
+      <div  className="campo">
+          <label className='white' htmlFor="nome">Nome</label>
           <input onChange={(event) => props.setNome(event.target.value)} type="text" name="Nome" id="nome" className="entrada" required="required"/>   
       </div>
       <div className="campo">
-          <label htmlFor="email">Email</label>
+          <label className='white' htmlFor="email">Email</label>
           <input onChange={(event) => props.setEmail(event.target.value)} type="email" name="Email" id="email" className="entrada" required="required"/>
       </div>
     </fieldset>
@@ -43,11 +43,11 @@ function SegundaLinha(props){
   return(
     <fieldset className="grupo">
       <div className="campo">
-          <label htmlFor="senha">Senha</label>
+          <label className='white' htmlFor="senha">Senha</label>
           <input onChange={(event) => props.setSenha(event.target.value)} type="password" id="senha" className="entrada" required="required"/>   
       </div>
       <div className="campo">
-          <label htmlFor="senha">Confirmar senha</label>
+          <label className='white' htmlFor="senha">Confirmar senha</label>
           <input onChange={(event) => receberSenhaConf(event.target.value)} type="password" id="senha2" className="entrada" required="required"/>
       </div>
       <p className={classeAviso}>As senhas não coicidem!</p>

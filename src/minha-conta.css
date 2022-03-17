@@ -93,4 +93,16 @@
     } 
  
     
-  }
+}
+
+@media screen and (max-width: 400px){
+    .btn-roxo-conta{
+        width: 50%;
+        margin: 0 auto 20px auto;
+        font-size: 16px;
+    }
+
+    .btns-conta{
+        margin-top: 70px;
+    } 
+}

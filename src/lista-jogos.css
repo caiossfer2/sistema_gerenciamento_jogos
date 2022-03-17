@@ -89,7 +89,7 @@ body {
   width: 99.8%;
   border-radius: 4px;
   background: #333333;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .lista-jogos li{
@@ -121,16 +121,19 @@ body {
   font-weight: 275;
 }
 
+.icones-fim{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .lixeira{
   margin-left: 8%;
   margin-right: 5%;
-
 }
 
 .lista-jogos .material-icons-round, .add-jogos1, .add-jogos2{
   cursor: pointer;
 }
-
 
 .add-jogos2{
   color:#775CB6;
@@ -157,6 +160,7 @@ body {
 .jogos-fixos{
   margin-top: 6px;
 }
+
 
 
 
@@ -216,7 +220,14 @@ body {
   .ultima-coluna{
     width: 26%; 
   }
- 
+
+  .add-jogos2{
+    margin-bottom: 90px;
+  }
+
+  .lixeira{
+    margin-left: 18%;
+  }
 }
 
 
@@ -245,6 +256,10 @@ body {
 
   .icones-fim span{
     font-size: 20px;
+  }
+
+  .lixeira{
+    margin-left: 24%;
   }
 
 }

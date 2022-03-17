@@ -40,11 +40,14 @@
   width: 44%;
   margin: 0 auto;
 }
+.caixa-wrapper label{
+  font-weight: 300;
+}
 
 .caixa{
   width: 100%;
-  font-size: 15px;
-  line-height: 34px;
+  font-size: 16px;
+  line-height: 32px;
   display: block;
   background-color: #252525;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -63,7 +66,7 @@
   padding: 5px 104px 5px 103px;
   background-color: #3700B3;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 300;
   color: #D9D9D9;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -123,6 +126,10 @@
   }
   .link1{
     font-size: 18px;
+  }
+
+  .caixa{
+      line-height: 24px;
   }
 
 }

@@ -15,7 +15,6 @@ export default function ListaJogos(props){
       api.get(`jogos/`)
       .then(function(response){
         var arrTemp = response.data.filter(item => item.Usuario.id == localStorage.getItem("id"));
-        console.log(arrTemp);
         setArrayJogos(arrTemp);
       })
       .catch(function(error){
